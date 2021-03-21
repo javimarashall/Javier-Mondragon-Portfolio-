@@ -90,7 +90,7 @@ h3, h5 {
 }
 .card1 {
     flex: 1 1 900px;
-    padding: 10px;    
+    padding: 20px;    
     margin-left: 10px;
     position: relative;
     flex-wrap: wrap;
@@ -108,7 +108,7 @@ img {
     position: relative;  
 }
 p {
-    padding: 50px;
+    padding: 70px;
     margin-left:  400px;
     position: inline-block; 
     font-size: 20px;
