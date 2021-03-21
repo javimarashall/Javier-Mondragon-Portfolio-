@@ -47,7 +47,8 @@ body {
     background-position: center;
 }
 
-main {
+.container {
+   
     position: relative;
     display: flex;
     padding: 40px;
@@ -56,13 +57,14 @@ main {
     margin-left: 400px;
     margin-top: -40px;
     justify-content: space-between;
+    min-width: 400px;
    
 }
 
 h2 {
     font-size: 50px;
-    text-align: left;
-    margin-left: 60px;
+    text-align: right;
+    margin-right: 1510px;
     margin-top: 50px;
 
 }
@@ -85,19 +87,19 @@ h3, h5 {
     position: relative;
     flex-wrap: wrap;
     justify-content: space-between;
-    top: -220px; 
-    margin-top: -70px;
+    top: 0px; 
+    margin-top: -30px;
 }
 .card1 {
-    flex: 1 1 900px;
+    flex: 1 1 890px;
     padding: 20px;    
+    padding-bottom: 1px;
     margin-left: 10px;
     position: relative;
-    flex-wrap: wrap;
-    top: -120px;
-    justify-content: space-between;
-    margin-top: 50px;
     min-width: 500px;
+    margin-top: 5px;
+    width: 100%;
+   
 } 
 
 img {
@@ -116,13 +118,24 @@ p {
     border-left: 4px solid black;
     
 }
-a {
-    text-decoration: none;
-    color: white;    
+a, img {
+    opacity: 0.6;    
 }
 #work {
     position: relative;
    margin-top: 50px;
+  
+}
+
+a, img:hover{
+    opacity: 1;
+    
+}
+
+img:active {
+    box-shadow: 10px 10px 10px 10px  black;
+    -moz-box-shadow: 15px 15px 5x black;
+    -webkit-box-shadow: 15px 15px 5px black;
 }
 
 
