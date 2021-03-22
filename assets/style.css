@@ -4,13 +4,13 @@
    margin: 0; 
 }
 body {
-    background-color: lightgray;
+    background-image: linear-gradient(rgb(56, 54, 54), rgb(167, 165, 165));
 }
 
 .header {
     font-family: monospace;
     padding: 20px;
-    background-color: rgb(36, 36, 36);
+    background-color: black;
     position: relative;
 }
 
@@ -151,8 +151,8 @@ img:active {
 }
 
 .Contact-Me1 {
-    width: 500px;
-    height: 300px;   
+    /*width: 500px;
+    height: 300px;*/   
     padding: 10px;
     position: relative;
     display: flex;
@@ -162,9 +162,9 @@ img:active {
     
     
 }
-.Contact-Me1, ul, li {
+.Contact-Me1, .ul, .li {
     color: black;
-    margin-left: 300px;
+    margin-left: 200px;
     display: inline;
     position: flex;
     flex-wrap: wrap;
@@ -173,21 +173,34 @@ img:active {
     
 }
 
-.contact-me1  {
-    margin-left: 20px;
-    border-right: 4px solid black;
+
 }
 
-.contact-me1, ul {
+.ul  {
     margin-left: 90px;
     display:inline-block;
     border-left: 4px solid black;
-    justify-content: space-between;
-    padding: 1px;
 }
 h6 {
     font-size: 25px;
     text-align: center;
     margin-top: 5%;
     color: black;
+}
+
+@media screen and (max-width: 992px) {
+.card, .card1 {
+    width: 50%;
+}
+.header {
+    background-color: rgb(59, 58, 58);
+}
+}
+@media screen and (max-width: 768px) {
+.card, .card1 {
+    width: 100%;
+}    
+.header {
+    background-color: lightgray;
+}
 }
