@@ -46,9 +46,14 @@ body {
     background-size: cover;
     background-position: center;
 }
+.about-me1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: flex;
+}
 
 .container {
-   
     position: relative;
     display: flex;
     padding: 40px;
@@ -57,7 +62,8 @@ body {
     margin-left: 400px;
     margin-top: -40px;
     justify-content: space-between;
-    min-width: 400px;
+    
+    
    
 }
 
@@ -65,14 +71,19 @@ h2 {
     font-size: 50px;
     text-align: right;
     margin-right: 1510px;
+    top: 100px;
     margin-top: 50px;
-
 }
 
 .box1, .box2{
     background-color: black;
     width: 30%;
-    color: white;      
+    color: white; 
+    margin: 0px;
+    padding: 8px 0 0;
+    position: relative;
+    top: 69px;
+    left: 5px;      
 }
 
 h3, h5 {
@@ -87,18 +98,20 @@ h3, h5 {
     position: relative;
     flex-wrap: wrap;
     justify-content: space-between;
-    top: 0px; 
-    margin-top: -30px;
+    top: -65px; 
+    margin-top: -50px;
+    margin-bottom: 10px;
 }
 .card1 {
     flex: 1 1 890px;
-    padding: 20px;    
-    padding-bottom: 1px;
-    margin-left: 10px;
+    padding: 10px;    
+    margin-left: 20px;
     position: relative;
+    flex: wrap;
     min-width: 500px;
-    margin-top: 5px;
+    margin-top: -110px;
     width: 100%;
+    margin-bottom: 20px;
    
 } 
 
@@ -124,10 +137,9 @@ a, img {
 #work {
     position: relative;
    margin-top: 50px;
-  
-}
+}  
 
-a, img:hover{
+a, img:hover {
     opacity: 1;
     
 }
@@ -138,4 +150,44 @@ img:active {
     -webkit-box-shadow: 15px 15px 5px black;
 }
 
+.Contact-Me1 {
+    width: 500px;
+    height: 300px;   
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+    
+}
+.Contact-Me1, ul, li {
+    color: black;
+    margin-left: 300px;
+    display: inline;
+    position: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
 
+.contact-me1  {
+    margin-left: 20px;
+    border-right: 4px solid black;
+}
+
+.contact-me1, ul {
+    margin-left: 90px;
+    display:inline-block;
+    border-left: 4px solid black;
+    justify-content: space-between;
+    padding: 1px;
+}
+h6 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+}
