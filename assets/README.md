@@ -1,7 +1,7 @@
 # Javier-Mondragon-Portfolio-
 
 ##
-![site](./assets/images/Site-Photo.png)
+![site](./assets/images/website.png)
 
 ## Technololgy Used
 - HTML- Used to create the code for the website
@@ -39,5 +39,3 @@ https://javimarashall.github.io/Javier-Mondragon-Portfolio-/
 ## Personal Links
 [Github](https://github.com/javimarashall)<br>
 [Linkedin](https://www.linkedin.com/in/javier-mondragon-7b471719b/)
-![site](./assets/images/Site-Photo.png)
-![site](./assets/images/site-photo.png)
