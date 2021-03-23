@@ -2,8 +2,6 @@
 
 ##
 ![site](./assets/images/website.png)
-![web](assets\images\website.png)
-![website](../assets/images/website.png)
 
 ## Technololgy Used
 - HTML- Used to create the code for the website
