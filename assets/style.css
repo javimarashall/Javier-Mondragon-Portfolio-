@@ -72,9 +72,11 @@ body {
 h2 {
     font-size: 50px;
     text-align: right;
-    margin-right: 1510px;
+    margin-right: 1540px;
     top: 100px;
     margin-top: 50px;
+    
+    
 }
 
 .box1, .box2{
@@ -175,12 +177,9 @@ img:active {
     
 }
 
-
-}
-
-.ul  {
-    margin-left: 90px;
-    display:inline-block;
+.ul1  {
+    margin-left: 400px;
+    display:block;
     border-left: 4px solid black;
 }
 h6 {
@@ -194,15 +193,32 @@ h6 {
 .card, .card1 {
     width: 50%;
 }
+/*header changes color at 992px*/
 .header {
     background-color: rgb(59, 58, 58);
 }
+.header nav {
+display: relative;
+padding-top: 15px;
+margin-right: 20px;
+float: center;
+font-family: monospace;
+font-size: 20px;
 }
+p, .my-photo {
+    width: 50%;
+}
+
+}
+
 @media screen and (max-width: 768px) {
 .card, .card1 {
     width: 100%;
 }    
 .header {
     background-color: lightgray;
+}
+p, .my-photo {
+    width: 100%;
 }
 }
