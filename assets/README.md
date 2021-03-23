@@ -12,4 +12,5 @@
 - Flexboxes 
 
 ## Summary
-This application contains my professional portfolio of applications I have created.  
+This application contains my professional portfolio of applications I have created. The portfolio contains information about me, such as a photograph and a brief description of me. 
+It also contains my professional applications organized into different sections, Mern Stack, Node/loT, React/Javascript/CSS, and HTML/CSS. 
