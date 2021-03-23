@@ -1,7 +1,6 @@
 # Javier-Mondragon-Portfolio-
 
 ##
-
 ![site](./assets/images/Site-Photo.png)
 
 ## Technololgy Used
@@ -40,3 +39,4 @@ https://javimarashall.github.io/Javier-Mondragon-Portfolio-/
 ## Personal Links
 [Github](https://github.com/javimarashall)<br>
 [Linkedin](https://www.linkedin.com/in/javier-mondragon-7b471719b/)
+(./assets/images/Site-Photo.png)
