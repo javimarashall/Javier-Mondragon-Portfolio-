@@ -19,16 +19,16 @@ The applications contains some cool features like the image opacity changes when
 ## Code snippet
 This code snippet represents the new technology we use in our daily lives with mobile devices. Now a days websites have to be configured to be used on a mobile device or desktop.
 
-.card {
-    flex: 1 0 500px;
-    padding: 20px;    
-    margin-left: 10px;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    top: -65px; 
-    margin-top: -50px;
-    margin-bottom: 10px;
+.card {<br>
+    flex: 1 0 500px;,<br>
+    padding: 20px;<br>    
+    margin-left: 10px;<br>
+    position: relative;<br>
+    flex-wrap: wrap;<br>
+    justify-content: space-between;<br>
+    top: -65px;<br> 
+    margin-top: -50px;<br>
+    margin-bottom: 10px;<br>
 
 ## REpository Link
 https://github.com/javimarashall/Javier-Mondragon-Portfolio-
