@@ -1,7 +1,7 @@
 # Javier-Mondragon-Portfolio-
 
 ##
-![site](./assets/images/website.png)
+![site](/assets/images/website.png)
 
 ## Technololgy Used
 - HTML- Used to create the code for the website
