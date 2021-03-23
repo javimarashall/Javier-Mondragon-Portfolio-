@@ -1,7 +1,7 @@
 # Javier-Mondragon-Portfolio-
 
 ##
-![Site](./assets/images/site-photo.jpg)
+![site](/assets/images/website.png)
 
 ## Technololgy Used
 - HTML- Used to create the code for the website
@@ -20,13 +20,13 @@ The applications contains some cool features like the image opacity changes when
 This code snippet represents the new technology we use in our daily lives with mobile devices. Now a days websites have to be configured to be used on a mobile device or desktop.
 
 .card {
-    flex: 1 0 500px;
+    flex: 1 0 500px;,
     padding: 20px;    
     margin-left: 10px;
     position: relative;
     flex-wrap: wrap;
     justify-content: space-between;
-    top: -65px; 
+    top: -65px;
     margin-top: -50px;
     margin-bottom: 10px;
 
